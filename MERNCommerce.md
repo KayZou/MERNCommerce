@@ -1,6 +1,6 @@
 # MERN E-Commerce Web Application
 
-This MERN stack e-commerce web application provides a seamless online shopping experience for users. It is built using React for the frontend, Bootstrap for styling, Redux Toolkit for state management, and Express for the backend. The application allows users to browse a wide range of products, add them to their cart, place orders, and view detailed information about specific products.
+This MERN stack e-commerce web application provides a seamless online shopping experience for users. It is built using React for the frontend, Bootstrap for styling, Redux Toolkit for state management, and Express for the backend. The application allows users to browse a wide range of products, add them to their cart, place orders, view detailed information about specific products, and leave reviews.
 
 ## Features:
 
@@ -24,10 +24,15 @@ This MERN stack e-commerce web application provides a seamless online shopping e
    - Confirmation emails are sent to users upon successful order placement.
    - Admins have access to a dashboard to manage orders.
 
-5. **User and Admin Dashboards:**
+5. **Product Reviews:**
+   - Users can leave reviews for specific products.
+   - Reviews include ratings and comments.
+   - Users can view reviews when browsing products.
+
+6. **User and Admin Dashboards:**
    - Users and admins have dedicated dashboards for managing their accounts and products, respectively.
    - Admins can also manage user accounts.
 
-6. **Security:**
+7. **Security:**
    - JWT tokens are securely passed using HTTP cookies for enhanced security.
    - Passwords are hashed and stored securely.
